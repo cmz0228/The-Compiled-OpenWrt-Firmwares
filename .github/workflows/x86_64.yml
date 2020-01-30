@@ -4,6 +4,9 @@ on:
   push:
     branches: 
       - x86_64
+  # 点赞触发
+  watch:
+    types: [started]
 jobs:
   build:
     runs-on: ubuntu-18.04
