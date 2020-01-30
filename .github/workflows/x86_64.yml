@@ -74,64 +74,64 @@ jobs:
     - name: Upload Generic SquashFS Image
       uses: actions/upload-artifact@v1
       with:
-        name: openwrt-x86-64-rootfs-squashfs.img	
-        path: /home/runner/openwrt/bin/targets/x86/64/openwrt-x86-64-rootfs-squashfs.img	
+        name: openwrt-x86-64-rootfs-squashfs.img
+        path: /home/runner/openwrt/bin/targets/x86/64/openwrt-x86-64-rootfs-squashfs.img
     - name: Upload Combined DVD Image
       uses: actions/upload-artifact@v1
       with:
-        name: openwrt-x86-64-combined-squashfs.img	
-        path: /home/runner/openwrt/bin/targets/x86/64/openwrt-x86-64-combined-squashfs.img	
+        name: openwrt-x86-64-combined-squashfs.img
+        path: /home/runner/openwrt/bin/targets/x86/64/openwrt-x86-64-combined-squashfs.img
     - name: Upload Combined PVE/KVM Image
       uses: actions/upload-artifact@v1
       with:
-        name: openwrt-x86-64-combined-squashfs.qcow2	
-        path: /home/runner/openwrt/bin/targets/x86/64/openwrt-x86-64-combined-squashfs.qcow2	
+        name: openwrt-x86-64-combined-squashfs.qcow2
+        path: /home/runner/openwrt/bin/targets/x86/64/openwrt-x86-64-combined-squashfs.qcow2
     - name: Upload Combined VirtualBox Image
       uses: actions/upload-artifact@v1
       with:
-        name: openwrt-x86-64-combined-squashfs.vdi	
-        path: /home/runner/openwrt/bin/targets/x86/64/openwrt-x86-64-combined-squashfs.vdi	
+        name: openwrt-x86-64-combined-squashfs.vdi
+        path: /home/runner/openwrt/bin/targets/x86/64/openwrt-x86-64-combined-squashfs.vdi
     - name: Upload Combined VMware Image
       uses: actions/upload-artifact@v1
       with:
-        name: openwrt-x86-64-combined-squashfs.vmdk	
-        path: /home/runner/openwrt/bin/targets/x86/64/openwrt-x86-64-combined-squashfs.vmdk	
+        name: openwrt-x86-64-combined-squashfs.vmdk
+        path: /home/runner/openwrt/bin/targets/x86/64/openwrt-x86-64-combined-squashfs.vmdk
     - name: Upload Combined VMware-EXSI Image
       uses: actions/upload-artifact@v1
       with:
-        name: openwrt-x86-64-combined-squashfs-esxi-flat.vmdk	
-        path: /home/runner/openwrt/bin/targets/x86/64/openwrt-x86-64-combined-squashfs-esxi-flat.vmdk	
+        name: openwrt-x86-64-combined-squashfs-esxi-flat.vmdk
+        path: /home/runner/openwrt/bin/targets/x86/64/openwrt-x86-64-combined-squashfs-esxi-flat.vmdk
     - name: Upload Combined Hyper-V Image
       uses: actions/upload-artifact@v1
       with:
-        name: openwrt-x86-64-combined-squashfs.vhdx	
-        path: /home/runner/openwrt/bin/targets/x86/64/openwrt-x86-64-combined-squashfs.vhdx	
+        name: openwrt-x86-64-combined-squashfs.vhdx
+        path: /home/runner/openwrt/bin/targets/x86/64/openwrt-x86-64-combined-squashfs.vhdx
 
     - name: Upload GPT DVD Image
       uses: actions/upload-artifact@v1
       with:
-        name: openwrt-x86-64-uefi-gpt-squashfs.img	
-        path: /home/runner/openwrt/bin/targets/x86/64/openwrt-x86-64-uefi-gpt-squashfs.img	
+        name: openwrt-x86-64-uefi-gpt-squashfs.img
+        path: /home/runner/openwrt/bin/targets/x86/64/openwrt-x86-64-uefi-gpt-squashfs.img
     - name: Upload GPT PVE/KVM Image
       uses: actions/upload-artifact@v1
       with:
-        name: openwrt-x86-64-uefi-gpt-squashfs.qcow2	
-        path: /home/runner/openwrt/bin/targets/x86/64/openwrt-x86-64-uefi-gpt-squashfs.qcow2	
+        name: openwrt-x86-64-uefi-gpt-squashfs.qcow2
+        path: /home/runner/openwrt/bin/targets/x86/64/openwrt-x86-64-uefi-gpt-squashfs.qcow2
     - name: Upload GPT VirtualBox Image
       uses: actions/upload-artifact@v1
       with:
-        name: openwrt-x86-64-uefi-gpt-squashfs.vdi	
-        path: /home/runner/openwrt/bin/targets/x86/64/openwrt-x86-64-uefi-gpt-squashfs.vdi	
+        name: openwrt-x86-64-uefi-gpt-squashfs.vdi
+        path: /home/runner/openwrt/bin/targets/x86/64/openwrt-x86-64-uefi-gpt-squashfs.vdi
     - name: Upload GPT VMware Image
       uses: actions/upload-artifact@v1
       with:
-        name: openwrt-x86-64-uefi-gpt-squashfs.vmdk	
-        path: /home/runner/openwrt/bin/targets/x86/64/openwrt-x86-64-uefi-gpt-squashfs.vmdk	
+        name: openwrt-x86-64-uefi-gpt-squashfs.vmdk
+        path: /home/runner/openwrt/bin/targets/x86/64/openwrt-x86-64-uefi-gpt-squashfs.vmdk
     - name: Upload GPT Hyper-V Image
       uses: actions/upload-artifact@v1
       with:
-        name: openwrt-x86-64-uefi-gpt-squashfs.vhdx	
-        path: /home/runner/openwrt/bin/targets/x86/64/openwrt-x86-64-uefi-gpt-squashfs.vhdx	
+        name: openwrt-x86-64-uefi-gpt-squashfs.vhdx
+        path: /home/runner/openwrt/bin/targets/x86/64/openwrt-x86-64-uefi-gpt-squashfs.vhdx
     - name: Upload Images SHA256SUMS
       uses: actions/upload-artifact@v1
       with:
